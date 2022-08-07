@@ -1,6 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Allerta&display=swap');
+
 * {
     margin:0px;
     padding:0px;
+}
+
+body{
+    background-image: url('../assets/6_folwer_cut.png');
+    background-size: 500px;
+    background-repeat: no-repeat;
+    background-position-x:right;
+    background-position-y:bottom;
+    background-color: #F4F3F8;
 }
 
 .main{
@@ -36,7 +47,17 @@
 
 .nav-item{
     display: inline;
-    margin:0px 20px;
+    margin:0px 40px;
+}
+
+.nav-link{
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Allerta';
+}
+
+.nav-item.active{
+    border-bottom: 2px solid #1f1f1f;
 }
 
 .button-group{
@@ -54,20 +75,48 @@
 }
 
 .content{
-    margin-top:180px;
+    margin-top:130px;
     width: 60%;
+    
 }
 
 .heading{
     font-size: 70px;
+    font-family: 'Abel';
+}
+
+.para{
+    font-size: 20px;
+    font-family: 'Abel';
 }
 
 .discover{
     margin:50px 0px;
 }
 
+.discover  div{
+    width:180px;
+    padding:20px 30px;
+    background-color: #466D50;
+    border:none;
+    border-radius: 40px;
+    color:#ffffff;
+    font-family: 'Allerta';
+    font-size: 30px;
+}
+
+.arrow-right{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-top:3px solid #ffffff;
+    border-right: 3px solid #ffffff;
+    transform: rotate(45deg);
+}
+
 .function{
     display: inline;
+    font-family: 'Allerta';
 }
 
 .feed{
